@@ -15,7 +15,7 @@ class HomeScreen(QWidget):
 
         # Display Logo Image
         self.logo = QLabel(self)
-        pixmap = QPixmap('path_to_your_logo_image.png')  # Update with the path to your logo
+        pixmap = QPixmap('/Users/briannagreen/Downloads/Quest.png')  # Update with the path to your logo
         self.logo.setPixmap(pixmap)
         self.logo.setAlignment(Qt.AlignCenter)  # Center the logo
         layout.addWidget(self.logo)
